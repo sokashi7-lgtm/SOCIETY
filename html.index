@@ -3,183 +3,35 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ಶಿಕ್ಷಣ ಇಲಾಖೆ ನೌಕರರ ಸಹಕಾರ ಸಂಘ</title>
-
+<title>ನಮ್ಮ ಸಹಕಾರ ಸಂಘ</title>
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body {
   font-family: sans-serif;
-  background: #f4f7fb;
-  color: #222;
-  line-height: 1.7;
+  text-align: center;
+  background: #f0f5ff;
+  margin: 0;
 }
 header {
-  background: #064e3b;
+  background: #174a83;
   color: white;
-  text-align: center;
-  padding: 25px 12px;
+  padding: 30px 15px;
 }
-header h1 {
-  font-size: 25px;
+main {
+  padding: 30px 15px;
 }
-header p {
-  font-size: 15px;
-}
-nav {
-  background: #083d70;
-  padding: 12px;
-  text-align: center;
-}
-nav a {
-  color: white;
-  text-decoration: none;
-  padding: 9px;
-  display: inline-block;
-}
-nav a:hover {
-  background: #d97706;
-  border-radius: 5px;
-}
-.hero {
-  background: linear-gradient(120deg,#047857,#0e7490);
-  color: white;
-  text-align: center;
-  padding: 55px 15px;
-}
-.hero h2 {
-  font-size: 27px;
-}
-section {
-  background: white;
-  margin: 18px auto;
-  padding: 25px;
-  width: 92%;
-  max-width: 1000px;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px #ddd;
-}
-section h2 {
-  color: #065f46;
-  margin-bottom: 12px;
-  border-bottom: 2px solid #eab308;
-  padding-bottom: 8px;
-}
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
-  gap: 15px;
-}
-.card {
-  background: #eff6ff;
-  padding: 18px;
-  border-radius: 8px;
-  text-align: center;
-}
-.card h3 {
-  color: #075985;
-}
-footer {
-  background: #064e3b;
-  color: white;
-  text-align: center;
-  padding: 22px;
-  margin-top: 25px;
-}
+h1 { font-size: 25px; }
+p { font-size: 18px; }
 </style>
 </head>
-
 <body>
-
 <header>
 <h1>ಶಿಕ್ಷಣ ಇಲಾಖೆ ನೌಕರರ ಸಹಕಾರ ಸಂಘ</h1>
-<p>ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿ, ತುಮಕೂರು ಜಿಲ್ಲೆ</p>
-<p>ಸಹಕಾರವೇ ನಮ್ಮ ಶಕ್ತಿ – ಸೇವೆಯೇ ನಮ್ಮ ಗುರಿ</p>
-</header>
-
-<nav>
-<a href="#home">ಮುಖಪುಟ</a>
-<a href="#about">ನಮ್ಮ ಸಂಘ</a>
-<a href="#president">ಅಧ್ಯಕ್ಷರ ಸಂದೇಶ</a>
-<a href="#loans">ಸಾಲ ಸೌಲಭ್ಯ</a>
-<a href="#deposit">ಠೇವಣಿ</a>
-<a href="#news">ಸೂಚನೆಗಳು</a>
-<a href="#contact">ಸಂಪರ್ಕ</a>
-</nav>
-
-<div class="hero" id="home">
-<h2>ಆತ್ಮೀಯ ಸ್ವಾಗತ</h2>
-<p>ಶಿಕ್ಷಕರ ಮತ್ತು ನೌಕರರ ಆರ್ಥಿಕ ಪ್ರಗತಿಗಾಗಿ ನಮ್ಮ ಸಂಘ ಸದಾ ಬದ್ಧವಾಗಿದೆ.</p>
-</div>
-
-<section id="about">
-<h2>ನಮ್ಮ ಸಂಘದ ಪರಿಚಯ</h2>
-<p>
-ಶಿಕ್ಷಣ ಇಲಾಖೆ ನೌಕರರ ಆರ್ಥಿಕ, ಸಾಮಾಜಿಕ ಮತ್ತು ಶೈಕ್ಷಣಿಕ
-ಅಭಿವೃದ್ಧಿಯ ಉದ್ದೇಶದಿಂದ ನಮ್ಮ ಸಹಕಾರ ಸಂಘ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆ.
-ಸದಸ್ಯರ ಹಿತಾಸಕ್ತಿಯೇ ಸಂಘದ ಪ್ರಮುಖ ಧ್ಯೇಯವಾಗಿದೆ.
-</p>
-</section>
-
-<section id="president">
-<h2>ಅಧ್ಯಕ್ಷರ ಸಂದೇಶ</h2>
-<p>
-ನಮ್ಮ ಸಂಘದ ಎಲ್ಲಾ ಸದಸ್ಯರಿಗೆ ಹೃತ್ಪೂರ್ವಕ ವಂದನೆಗಳು.
-ಪರಸ್ಪರ ಸಹಕಾರ, ವಿಶ್ವಾಸ ಮತ್ತು ಪಾರದರ್ಶಕ ಆಡಳಿತದ ಮೂಲಕ
-ಸಂಘವನ್ನು ಇನ್ನಷ್ಟು ಅಭಿವೃದ್ಧಿಯತ್ತ ಕೊಂಡೊಯ್ಯುವುದು ನಮ್ಮ ಆಶಯ.
-ಸದಸ್ಯರ ಸಹಕಾರ ಮತ್ತು ಬೆಂಬಲ ಸದಾ ಇರಲಿ.
-</p>
-<p><b>ಇಂತಿ, ಅಧ್ಯಕ್ಷರು</b></p>
-</section>
-
-<section id="loans">
-<h2>ಸಾಲ ಸೌಲಭ್ಯಗಳು</h2>
-<div class="cards">
-<div class="card">
-<h3>ವೇತನ ಸಾಲ</h3>
-<p>ಬಡ್ಡಿ ದರ: 10.75%</p>
-</div>
-<div class="card">
-<h3>ಆಧಾರ ಸಾಲ</h3>
-<p>ಬಡ್ಡಿ ದರ: 9.75%</p>
-</div>
-</div>
-</section>
-
-<section id="deposit">
-<h2>ಠೇವಣಿ ಸೌಲಭ್ಯಗಳು</h2>
-<p>ಸದಸ್ಯರ ಉಳಿತಾಯ ಮತ್ತು ಆರ್ಥಿಕ ಭದ್ರತೆಗೆ ಸಂಘದಲ್ಲಿ ವಿವಿಧ ಠೇವಣಿ ಸೌಲಭ್ಯಗಳು ಲಭ್ಯವಿವೆ.</p>
-</section>
-
-<section>
-<h2>ಪ್ರತಿಭಾ ಪುರಸ್ಕಾರ</h2>
-<p>ಸದಸ್ಯರ ಮಕ್ಕಳ ಶೈಕ್ಷಣಿಕ ಸಾಧನೆಯನ್ನು ಗುರುತಿಸಿ ಪ್ರೋತ್ಸಾಹಿಸುವುದು ನಮ್ಮ ಸಂಘದ ಉದ್ದೇಶವಾಗಿದೆ.</p>
-</section>
-
-<section>
-<h2>ಸಂಘದ ಕಾರ್ಯಕ್ರಮಗಳು</h2>
-<p>ಸಂಘದ ವಾರ್ಷಿಕ ಮಹಾಸಭೆ, ಸದಸ್ಯರ ಸಭೆಗಳು, ಪ್ರತಿಭಾ ಪುರಸ್ಕಾರ ಹಾಗೂ ಇತರ ಕಾರ್ಯಕ್ರಮಗಳ ಮಾಹಿತಿ ಇಲ್ಲಿ ಪ್ರಕಟಿಸಲಾಗುವುದು.</p>
-</section>
-
-<section id="news">
-<h2>ಸೂಚನೆಗಳು ಮತ್ತು ಪ್ರಕಟಣೆಗಳು</h2>
-<p>ಹೊಸ ಪ್ರಕಟಣೆಗಳನ್ನು ಶೀಘ್ರದಲ್ಲೇ ಇಲ್ಲಿ ಪ್ರಕಟಿಸಲಾಗುವುದು.</p>
-</section>
-
-<section id="contact">
-<h2>ಸಂಪರ್ಕ ಮಾಹಿತಿ</h2>
-<p>ಶಿಕ್ಷಣ ಇಲಾಖೆ ನೌಕರರ ಸಹಕಾರ ಸಂಘ</p>
-<p>ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿ, ತುಮಕೂರು ಜಿಲ್ಲೆ</p>
-<p>ಕರ್ನಾಟಕ</p>
-</section>
-
-<footer>
-<p>© 2026 ಶಿಕ್ಷಣ ಇಲಾಖೆ ನೌಕರರ ಸಹಕಾರ ಸಂಘ</p>
 <p>ಚಿಕ್ಕನಾಯಕನಹಳ್ಳಿ</p>
-</footer>
-
+</header>
+<main>
+<h2>ನಮ್ಮ ಸಂಘಕ್ಕೆ ಸ್ವಾಗತ</h2>
+<p>ಸದಸ್ಯರ ಸೇವೆಯೇ ನಮ್ಮ ಧ್ಯೇಯ</p>
+<p>ಸಹಕಾರವೇ ಸಮೃದ್ಧಿಯ ಮೂಲ</p>
+</main>
 </body>
 </html>
